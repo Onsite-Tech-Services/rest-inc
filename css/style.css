@@ -31,7 +31,7 @@ audio:not([controls]) { display: none; }
  * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
  */
 
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background: #00008b;}
 
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 
@@ -51,9 +51,9 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a { color: #fff; }
+a:visited { color: #fff; }
+a:hover { color: #f00; text-decoration: underline }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
@@ -206,12 +206,70 @@ td { vertical-align: top; }
    Author:
    ========================================================================== */
 
-
-
-
-
-
-
+#container{
+    width: 1076px;
+    margin: 4px auto;
+    color:#fff;
+    position: relative;
+    overflow: auto;
+}
+header{
+    height: 399px;
+    background: url("../img/header_bg.png") no-repeat 0 0;
+    position: relative;
+}
+header nav{
+    font-size: 22px;
+    height: 35px;
+    left: 75px;
+    line-height: 35px;
+    position: absolute;
+    top: 130px;
+    text-shadow: 0 -1px 1px #222;
+}
+header nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+header nav a.active{
+    text-shadow: 3px 2px 3px #222222;
+    color: #f00;
+}
+#headerBottom{
+    width: 976px;
+    height: 100px;
+    background: url("../img/header_bottom_bg.png") no-repeat;
+    margin: 0 auto;
+}
+#main{
+    position: relative;
+    height: 420px;
+}
+#main #slider{
+    width: 930px;
+    height: 416px;
+    margin: 0 auto;
+}
+#slider ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    position: relative;
+    background: url("../img/footer_bg.png") no-repeat 8px 96px;
+    margin: 0 auto;
+}
+footer #footerTop{
+    position: relative;
+    margin: 0 auto;
+    width: 983px;
+    height: 96px;
+    background: url("../img/footer_top_bg.png") no-repeat;
+}
+footer #footerBottom{
+    margin-top: 330px;
+}
 
 
 
