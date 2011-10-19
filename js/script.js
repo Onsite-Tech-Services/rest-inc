@@ -1,7 +1,9 @@
 /* Author:
 
 */
-
+$(function(){
+    $('#slider').nivoSlider();
+});
 
 
 

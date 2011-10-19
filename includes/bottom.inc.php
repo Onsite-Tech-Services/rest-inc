@@ -1,16 +1,15 @@
 <?php
 if ($_SERVER['HTTP_HOST'] == 'localhost' || strstr($_SERVER['HTTP_HOST'],'192.168.2') || $_SERVER['HTTP_HOST'] == '127.0.0.1'){
-    echo ('<script src="js/libs/jquery-1.6.4.min.js">');
+    echo ('<script src="js/libs/jquery-1.6.4.min.js"></script>');
 }else{
     echo<<<HEREDOC
     <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.4.min.js"><\/script>')</script>
 HEREDOC;
 }
 ?>
-<!-- scripts concatenated and minified via build script -->
+<script defer src="js/libs/jquery.nivo.slider.js"></script>
 <script defer src="js/plugins.js"></script>
 <script defer src="js/script.js"></script>
-<!-- end scripts -->
 <?php
 if ($_SERVER['HTTP_HOST'] == 'localhost' || strstr($_SERVER['HTTP_HOST'],'192.168.2') || $_SERVER['HTTP_HOST'] == '127.0.0.1'){
 }else{

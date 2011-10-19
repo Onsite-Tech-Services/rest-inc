@@ -249,12 +249,62 @@ header nav a.active{
     width: 930px;
     height: 416px;
     margin: 0 auto;
+    background:url(../img/slider/loading.gif) no-repeat 50% 50%;
+    position: relative;
 }
-#slider ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+/* Direction nav styles (e.g. Next & Prev) */
+#slider a {
+	border:0;
+	display:block;
 }
+
+.nivo-controlNav {
+	position:absolute;
+	top:10px;
+	right:10px;
+    z-index: 1005;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(../img/slider/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../img/slider/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+    bottom: 8px;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a {
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+
 footer{
     position: relative;
     background: url("../img/footer_bg.png") no-repeat 8px 96px;

@@ -11,6 +11,7 @@
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nivo-slider.css">
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
@@ -33,10 +34,10 @@
       <h3 class="visuallyhidden">Taylor Development LLC</h3>
       <div id="headerBottom"></div>
       <div id="main" role="main">
-          <div id="slider">
-              <ul>
-                  <li><img src="img/slider/slider1.jpg" alt="Slider Image 1"></li>
-              </ul>
+          <div id="slider" class="nivoSlider">
+              <img src="img/slider/slider1.jpg" alt="Slider Image 1" title="">
+              <img src="img/slider/slider2.jpg" alt="Slider Image 2" title="">
+              <img src="img/slider/slider3.jpg" alt="Slider Image 3" title="">
           </div>
       </div>
       <footer>
