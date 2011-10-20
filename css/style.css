@@ -43,8 +43,8 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #f00; color: #fff; text-shadow: none; }
+::selection { background: #f00; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -239,7 +239,7 @@ header nav a.active{
     width: 976px;
     height: 100px;
     background: url("../img/header_bottom_bg.png") no-repeat;
-    margin: 0 auto;
+    margin: 0 auto -5px;
 }
 #main{
     position: relative;
@@ -397,7 +397,60 @@ footer #footerBottom{
     text-decoration:underline;
 }
 
-
+/*CONTACT*/
+.contact #main{
+    background: url("../img/contact_bg.jpg") no-repeat scroll 0 0 transparent;
+    height: 367px;
+    margin: 0 auto;
+    padding: 35px 110px;
+    width: 710px;
+}
+.contact label, .contact input, .contact textarea{
+    display: block
+}
+.contact label{
+    font-size: 20px;
+    padding: 3px;
+}
+.contact input{
+    height: 31px;
+    width: 335px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+.contact #contactLeft{
+    width: 350px;
+    float: left;
+}
+.contact #contactRight{
+    width: 345px;
+    float: right;
+}
+.contact textarea{
+    border: none;
+    background: none;
+    width: 340px;
+    height: 250px;
+    font-size: 20px;
+    color: #fff;
+    resize: none;
+}
+.contact #contactBtn{
+    background: url("../img/contact_btn.png");
+    width: 308px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 15px 20px;
+}
+.contact #contactBtn:hover{
+    text-decoration: underline;
+}
 
 
 /* ==|== media queries ======================================================
