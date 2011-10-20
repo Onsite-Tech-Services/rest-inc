@@ -34,10 +34,10 @@
       <h3 class="visuallyhidden">Taylor Development LLC</h3>
       <div id="headerBottom"></div>
       <div id="main" role="main">
-          <div id="slider" class="nivoSlider">
-              <img src="img/slider/slider1.jpg" alt="Slider Image 1" title="">
-              <img src="img/slider/slider2.jpg" alt="Slider Image 2" title="">
-              <img src="img/slider/slider3.jpg" alt="Slider Image 3" title="">
+          <div id="aboutSlider" class="nivoSlider">
+              <img src="img/slider/about_slider1.jpg" alt="Slider Image 1" title='Restorations Inc. of Hinsdale Mass is a general contractor and “open shop,” family business headed by Eric Taylor, owner and president.  Established in 1970 by his father, the late George W. Taylor, the younger Taylor, who took over the firm in 2002, also heads a number of development companies with properties throughout Berkshire County.
+              Rapidly gaining notoriety at its inception for the restoration of one of the Gilded Age "cottages" of the Berkshires, the company has since become widely recognized and highly regarded for providing quality work on or ahead of schedule.  Notably, with projects as divergent as The National Shrine of Divine Mercy in Stockbridge and the unique Azure Green headquarters in Middlefield, Restorations Inc. has become well known for being undaunted by and consistently beating deadlines.  Large corporations as well as countless homeowners have been pleased to see their last-minute projects completed in advance of the inhospitable Berkshire winters.'>
+              <img src="img/slider/about_slider2.jpg" alt="Slider Image 2" title="Taylor, along with his wife, Jen, and their four children, makes his home in Peru - the highest township in the state.  Hence, he’s especially attuned to such things as the ominous approach of tough weather.  But his personal residence is also a testament to the special comforts available to those who highly covet the prized aspects of all four Berkshire seasons.">
           </div>
       </div>
       <footer>

@@ -298,6 +298,7 @@ a.nivo-prevNav {
 .nivo-caption {
     text-shadow:none;
     font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
 }
 .nivo-caption a {
     color:#efe9d1;
@@ -347,8 +348,54 @@ footer #footerBottom{
 .about header{
     height: 300px;
 }
+.about #main{
+    width: 930px;
+    height: 497px;
+    background: url("../img/about_bg.jpg") no-repeat;
+    margin: 0 auto;
+}
+.about #main #aboutSlider{
+    width: 736px;
+    height: 352px;
+    margin: 0 auto;
+    background:url(../img/slider/loading.gif) no-repeat 50% 50%;
+    position: relative;
+}
+.about .nivo-controlNav {
+    display: none;
+}
+.about .nivo-directionNav a {
+	display:block;
+	width:36px;
+	height:50px;
+	background:url(../img/slider/about_arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+    top: 45%;
+}
+.about a.nivo-nextNav {
+	right:-60px;
+    background-position: 0 5px;
+}
+.about a.nivo-prevNav {
+    background-position: 0 -48px;
+    left: -60px;
+}
 
-
+.about .nivo-caption {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -160px;
+    font-family: Helvetica,Arial,sans-serif;
+    height: 150px;
+    position: absolute;
+    text-shadow: none;
+    width: 900px;
+    left: -80px;
+}
+.about .nivo-caption a {
+    color:#efe9d1;
+    text-decoration:underline;
+}
 
 
 

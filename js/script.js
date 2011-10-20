@@ -2,7 +2,9 @@
 
 */
 $(function(){
-    $('#slider').nivoSlider();
+    $('.nivoSlider').nivoSlider({
+        directionNavHide: false
+    });
 });
 
 
