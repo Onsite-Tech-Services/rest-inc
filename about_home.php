@@ -16,12 +16,12 @@
 </head>
 
 <body>
-  <div id="container">
+  <div id="container" class="about">
       <header>
           <nav>
               <ul>
-                  <li><a class="active" href="">HOME</a></li>
-                  <li><a href="about_home.php">ABOUT US</a></li>
+                  <li><a href="index.php">HOME</a></li>
+                  <li><a class="active" href="">ABOUT US</a></li>
                   <li><a href="portfolio.php">PORTFOLIO</a></li>
                   <li><a href="contact.php">CONTACT US</a></li>
               </ul>

@@ -311,11 +311,16 @@ footer{
     margin: 0 auto;
 }
 footer #footerSFW{
-    color: #907061;
     float: right;
     font-size: 20px;
     margin-right: 80px;
-    margin-top: 10px;
+    margin-top: 45px;
+}
+footer #footerSFW a{
+    color: #907061;
+}
+footer #footerSFW a:hover{
+    text-shadow: 0 0 15px #f00;
 }
 footer #footerTop{
     position: relative;
@@ -324,12 +329,24 @@ footer #footerTop{
     height: 96px;
     background: url("../img/footer_top_bg.png") no-repeat;
 }
+footer #footerText{
+    width: 920px;
+    height: 100px;
+    margin: 70px auto 10px;
+    color: #775748;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 0 20px;
+}
 footer #footerBottom{
-    margin-top: 330px;
+    margin-top: 150px;
 }
 
 
-
+/*ABOUT*/
+.about header{
+    height: 300px;
+}
 
 
 
