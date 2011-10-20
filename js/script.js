@@ -14,6 +14,8 @@ $(function(){
             success:function(json){
                 if(!json.result){
                     alert(json.errorArr[0]);
+                }else if(json.result == 'OK'){
+                    alert('Your message was sent.');
                 }
             }
         });
