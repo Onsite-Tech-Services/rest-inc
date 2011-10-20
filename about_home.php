@@ -57,8 +57,8 @@
               </p>
           </div>
           <div id="footerBottom">
-              <a href="">onsitetechservices.com</a>
-              www.resorationsincberkshires.com
+              <a href="http://onsitetechservices.com" target="_blank">onsitetechservices.com</a>
+<!--              www.resorationsincberkshires.com-->
           </div>
       </footer>
   </div>
