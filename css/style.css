@@ -316,7 +316,17 @@ footer #footerSFW{
     font-size: 20px;
     margin-right: 80px;
     margin-top: 45px;
+    color: #907061;
 }
+footer #listLeft{
+    float: left;
+    width: 440px;
+    margin-left: 40px;
+}
+footer #listRight{
+    float: left
+}
+
 footer #footerSFW a{
     color: #907061;
 }
@@ -342,6 +352,10 @@ footer #footerText{
 footer #footerBottom{
     margin-top: 150px;
     text-align: center;
+}
+footer .sfwList{
+    float: left;
+    height: 100px;
 }
 
 
@@ -396,6 +410,10 @@ footer #footerBottom{
 .about .nivo-caption a {
     color:#efe9d1;
     text-decoration:underline;
+}
+.about #sfwText{
+    text-align: center;
+    padding: 10px;
 }
 
 /*CONTACT*/

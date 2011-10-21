@@ -34,27 +34,30 @@
       <h3 class="visuallyhidden">Taylor Development LLC</h3>
       <div id="headerBottom"></div>
       <div id="main" role="main">
-          <div id="aboutSlider" class="nivoSlider">
-              <img src="img/slider/about_slider1.jpg" alt="Slider Image 1" title='Restorations Inc. of Hinsdale Mass is a general contractor and “open shop,” family business headed by Eric Taylor, owner and president.  Established in 1970 by his father, the late George W. Taylor, the younger Taylor, who took over the firm in 2002, also heads a number of development companies with properties throughout Berkshire County.
-              Rapidly gaining notoriety at its inception for the restoration of one of the Gilded Age "cottages" of the Berkshires, the company has since become widely recognized and highly regarded for providing quality work on or ahead of schedule.  Notably, with projects as divergent as The National Shrine of Divine Mercy in Stockbridge and the unique Azure Green headquarters in Middlefield, Restorations Inc. has become well known for being undaunted by and consistently beating deadlines.  Large corporations as well as countless homeowners have been pleased to see their last-minute projects completed in advance of the inhospitable Berkshire winters.'>
-              <img src="img/slider/about_slider2.jpg" alt="Slider Image 2" title="Taylor, along with his wife, Jen, and their four children, makes his home in Peru - the highest township in the state.  Hence, he’s especially attuned to such things as the ominous approach of tough weather.  But his personal residence is also a testament to the special comforts available to those who highly covet the prized aspects of all four Berkshire seasons.">
+          <div id="aboutSlider">
+              <img src="img/about_sfw.jpg" alt="Smoke, Fire and Water Damage Repair">
+          </div>
+          <div id="sfwText">
+              <p>Our specialized division of dedicated professionals stands at the ready to aid you in speedily returning the damaged area back to a habitable living space. </p>
+              <p>Our experience coupled with cutting-edge technology, such as infrared moisture sensing cameras and specialized drying equipment, can help to minimize the disruption caused by such unfortunate events. You can be assured that our competitive rates and timely response have kept us at the head of the line in the view of many local as well as national insurance agencies.</p>
           </div>
       </div>
       <footer>
           <div id="footerTop"></div>
-          <div id="footerSFW"><a href="about_sfw.php">Our Smoke, Fire, and Water Division</a></div>
+          <div id="footerSFW">Our Smoke, Fire, and Water Division</div>
           <div id="footerText">
-              <p>
-                  Our specialized division of dedicated professionals stands at the ready to aid you in speedily
-                  returning the damaged area back to a habitable living space.
-              </p>
-              <p>
-                  Our experience coupled with cutting-edge technology,
-                  such as infrared moisture sensing cameras and specialized drying equipment,
-                  can help to minimize the disruption caused by such unfortunate events.
-                  You can be assured that our competitive rates and timely response have kept us at the
-                  head of the line in the view of many local as well as national insurance agencies.
-              </p>
+              <ul id="listLeft">
+                  <li>24-hour Emergency Response</li>
+                  <li>Temporary Shoring & Emergency board ups</li>
+                  <li>Water Extraction Structural Drying and Cleaning </li>
+                  <li>Infrared Imaging Structural Decontamination</li>
+              </ul>
+              <ul id="listRight">
+                  <li>Reconstruction Remodeling Historical Reproductions</li>
+                  <li>Engineering service</li>
+                  <li>Permit drawings</li>
+                  <li>Electrical and mechanical damage assessments</li>
+              </ul>
           </div>
           <div id="footerBottom">
               <a href="http://onsitetechservices.com" target="_blank">onsitetechservices.com</a>

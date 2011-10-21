@@ -15,7 +15,8 @@ $(function(){
                 if(!json.result){
                     alert(json.errorArr[0]);
                 }else if(json.result == 'OK'){
-                    alert('Your message was sent.');
+                    $('#contactForm').remove();
+                    $('#main').css('background', 'url("img/thankyou_bg.jpg")');
                 }
             }
         });
