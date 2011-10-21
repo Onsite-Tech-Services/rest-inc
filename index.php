@@ -6,8 +6,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Restorations Inc</title>
-  <meta name="description" content="">
+  <title>General Contractor: Commercial Residential: Berkshires Western Massachusetts: Restorations Inc.</title>
+  <meta name="description" content="Restorations Inc. - General Contracting Services for Commercial and Residential building projects in the Berkshires of Western Massachusetts since 1970.">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
