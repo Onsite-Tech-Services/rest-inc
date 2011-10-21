@@ -16,7 +16,10 @@ $(function(){
                     alert(json.errorArr[0]);
                 }else if(json.result == 'OK'){
                     $('#contactForm').remove();
-                    $('#main').css('background', 'url("img/thankyou_bg.jpg")');
+                    $('#main').css({
+                        background: 'url("img/thankyou_bg.jpg")',
+                        height: 427
+                    });
                 }
             }
         });
