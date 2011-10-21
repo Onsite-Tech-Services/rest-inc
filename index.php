@@ -36,8 +36,8 @@
       <div id="main" role="main">
           <div id="slider" class="nivoSlider">
               <img src="img/slider/slider1.jpg" alt="Slider Image 1" title="Restorations, Inc. was established in 1970 by George W. Taylor. Restorations, Inc. is a commercial General Contractor with a broad background of projects throughout Berkshire County. Here at Restorations, Inc. we strive to make your company's renovation or new construction as streamlined as possible from conception to completion. we are competitive in the bid process and believe it's our user friendliness that makes us stand above our competition, explaining why 75% of our base is repeat clients.">
-              <img src="img/slider/slider2.jpg" alt="Slider Image 2" title="">
-              <img src="img/slider/slider3.jpg" alt="Slider Image 3" title="">
+<!--              <img src="img/slider/slider2.jpg" alt="Slider Image 2" title="">-->
+<!--              <img src="img/slider/slider3.jpg" alt="Slider Image 3" title="">-->
           </div>
       </div>
       <footer>
