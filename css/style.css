@@ -346,7 +346,7 @@ footer #footerBottom{
 
 
 /*ABOUT*/
-.about header{
+.about header, .contact header{
     height: 300px;
 }
 .about #main{
