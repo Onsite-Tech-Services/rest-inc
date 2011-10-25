@@ -5,6 +5,14 @@ $(function(){
     $('.nivoSlider').nivoSlider({
         directionNavHide: false
     });
+
+
+    $('#carousel').jcarousel({
+        auto: 4,
+        wrap: 'last',
+        initCallback: mycarousel_initCallback
+    });
+
     $('#contactForm').submit(function(){
         $.ajax({
             url: 'sendMail.php',
@@ -26,7 +34,35 @@ $(function(){
         return false;
     });
 });
+function mycarousel_initCallback(carousel)
+{
+    //load first image
+//    $('#imageDisplay').css('backgroundImage', 'url(img/projects/prod1/img01.jpg)');
 
+    // Disable autoscrolling if the user clicks the prev or next button.
+    carousel.buttonNext.bind('click', function() {
+        carousel.startAuto(0);
+    });
 
+    carousel.buttonPrev.bind('click', function() {
+        carousel.startAuto(0);
+    });
 
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+        carousel.startAuto();
+    });
 
+    //click carousel item
+    $('#carousel').find('.jcarousel-item a').click(function(){
+        $this = $(this);
+        imgSrc = $this.attr('href');
+        $('#carousel').find('li.active').removeClass('active');
+        $this.closest('li').addClass('active');
+        $('#imageDisplay').find('img').attr('src',imgSrc);
+        return false;
+    });
+
+}

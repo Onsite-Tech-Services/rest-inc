@@ -12,6 +12,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/nivo-slider.css">
+  <link rel="stylesheet" href="css/skin.css">
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
@@ -34,12 +35,23 @@
       <h3 class="visuallyhidden">Taylor Development LLC</h3>
       <div id="headerBottom"></div>
       <div id="main" role="main">
-          <div id="aboutSlider">
-              <img src="img/slider/about_slider1.jpg" alt="Slider Image 1" title='Restorations Inc. of Hinsdale Mass is a general contractor and “open shop,” family business headed by Eric Taylor, owner and president.  Established in 1970 by his father, the late George W. Taylor, the younger Taylor, who took over the firm in 2002, also heads a number of development companies with properties throughout Berkshire County.
-              Rapidly gaining notoriety at its inception for the restoration of one of the Gilded Age "cottages" of the Berkshires, the company has since become widely recognized and highly regarded for providing quality work on or ahead of schedule.  Notably, with projects as divergent as The National Shrine of Divine Mercy in Stockbridge and the unique Azure Green headquarters in Middlefield, Restorations Inc. has become well known for being undaunted by and consistently beating deadlines.  Large corporations as well as countless homeowners have been pleased to see their last-minute projects completed in advance of the inhospitable Berkshire winters.'>
+          <div id="imageDisplay">
+              <img src="img/projects/prod1/img01.jpg" alt="">
           </div>
-
-            <h3 style="text-align: center">We're in the process of updating our pictures...please check back shortly.</h3>
+          <ul id="carousel" class="jcarousel-skin-tango">
+              <li class="active"><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img02.jpg"><img src="img/projects/prod1/img02_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img02.jpg"><img src="img/projects/prod1/img02_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img02.jpg"><img src="img/projects/prod1/img02_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img02.jpg"><img src="img/projects/prod1/img02_tn.jpg" alt=""></a></li>
+              <li><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
+          </ul>
       </div>
       <footer>
           <div id="footerTop"></div>

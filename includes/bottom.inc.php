@@ -8,6 +8,7 @@ HEREDOC;
 }
 ?>
 <script defer src="js/libs/jquery.nivo.slider.js"></script>
+<script defer src="js/libs/jquery.jcarousel.min.js"></script>
 <script defer src="js/plugins.js"></script>
 <script defer src="js/script.js"></script>
 <?php
