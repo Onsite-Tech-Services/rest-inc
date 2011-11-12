@@ -6,6 +6,16 @@ $(function(){
         directionNavHide: false
     });
 
+    var gallery = (function(){
+        var link = $('#galleryLink');
+
+        link.bind('click', function(){
+            //on click
+            $('#projectList').slideToggle(200);
+            return false
+        });
+    })();
+
 
     $('#carousel').jcarousel({
         auto: 4,
