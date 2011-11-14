@@ -538,6 +538,7 @@ footer #footerText {
 footer #footerBottom {
     margin-top: 150px;
     text-align: center;
+    font-size: 15px;
 }
 
 footer .sfwList {
