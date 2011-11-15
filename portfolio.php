@@ -65,7 +65,7 @@
               <img width="410" height="350" src="img/projects/shrine/img_first.jpg" alt="">
           </div>
           <ul id="carousel" class="jcarousel-skin-tango">
-              <li class="active"><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
+              <li class="active"><a href="img/projects/shrine/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
               <li><a href="img/projects/shrine/img01.jpg"><img src="img/projects/shrine/img01_tn.jpg" alt=""></a></li>
               <li><a href="img/projects/shrine/img02.jpg"><img src="img/projects/shrine/img02_tn.jpg" alt=""></a></li>
           </ul>
