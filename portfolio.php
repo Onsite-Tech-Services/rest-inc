@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <div id="container" class="about">
+  <div id="container" class="portfolio">
       <header>
           <nav>
               <ul>
@@ -46,8 +46,23 @@
           <?php switch($_GET['project']){
             case 'Shrine':
           ?>
+          <div id="projectText">
+              <h3>Shrine of the Divine Mercies</h3>
+              <h4>
+                  Eden Hill
+                  <br>
+                  Stockbridge, MA
+              </h4>
+              <p>Begun in October 2008, Restorations Inc. was able to complete the entire Shrine project in time to
+                  welcome the more than fifteen thousand visitors slated to arrive at their annual gathering the following month of May.
+                  The five thousand square foot building features both a Mother Mercy shrine on the upper level
+                  as well as one dedicated to The Holy Innocence in the basement of the structure.
+                  The Marian Fathers were well pleased that the deadline was met and gave credit to Taylor's
+                  firm in a front page article in The Berkshire Eagle, the local newspaper.
+              </p>
+          </div>
           <div id="imageDisplay">
-              <img src="img/projects/shrine/img01.jpg" alt="">
+              <img width="410" height="350" src="img/projects/shrine/img_first.jpg" alt="">
           </div>
           <ul id="carousel" class="jcarousel-skin-tango">
               <li class="active"><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>

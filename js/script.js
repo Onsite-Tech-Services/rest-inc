@@ -71,7 +71,8 @@ function mycarousel_initCallback(carousel)
         imgSrc = $this.attr('href');
         $('#carousel').find('li.active').removeClass('active');
         $this.closest('li').addClass('active');
-        $('#imageDisplay').find('img').attr('src',imgSrc);
+        $('#projectText').remove();
+        $('#imageDisplay').find('img').css({height: 'auto', width: 'auto'}).attr('src',imgSrc);
         return false;
     });
 
