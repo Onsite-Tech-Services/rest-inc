@@ -68,7 +68,6 @@
               <li class="active"><a href="img/projects/prod1/img01.jpg"><img src="img/projects/prod1/img01_tn.jpg" alt=""></a></li>
               <li><a href="img/projects/shrine/img01.jpg"><img src="img/projects/shrine/img01_tn.jpg" alt=""></a></li>
               <li><a href="img/projects/shrine/img02.jpg"><img src="img/projects/shrine/img02_tn.jpg" alt=""></a></li>
-              <li><a href="img/projects/shrine/img03.jpg"><img src="img/projects/shrine/img03_tn.jpg" alt=""></a></li>
           </ul>
           <?php
                 break;
