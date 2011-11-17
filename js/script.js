@@ -1,6 +1,16 @@
 /* Author:
 
 */
+window.onload = function(){
+    $('#carousel').jcarousel({
+        auto: 4,
+        wrap: 'last',
+        initCallback: mycarousel_initCallback
+    });
+
+    return false;
+};
+
 $(function(){
     $('.nivoSlider').nivoSlider({
         directionNavHide: false
@@ -17,11 +27,6 @@ $(function(){
     })();
 
 
-    $('#carousel').jcarousel({
-        auto: 4,
-        wrap: 'last',
-        initCallback: mycarousel_initCallback
-    });
 
     $('#contactForm').submit(function(){
         $.ajax({
