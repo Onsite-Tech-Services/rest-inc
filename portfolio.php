@@ -46,11 +46,11 @@
         <a id="galleryLink" href="">PROJECT GALLERY</a>
     </div>
     <ul id="projectList">
-        <li><a href="portfolio.php?project=BerkshireHills">Berkshire Hills</a></li>
-        <li><a href="portfolio.php?project=Shrine">Shrine</a></li>
         <li><a href="portfolio.php?project=Azure">Azure Green</a></li>
-        <li><a href="portfolio.php?project=Office">Office</a></li>
+        <li><a href="portfolio.php?project=BerkshireHills">Berkshire Hills</a></li>
         <li><a href="portfolio.php?project=Misc">Misc.</a></li>
+        <li><a href="portfolio.php?project=Office">Office</a></li>
+        <li><a href="portfolio.php?project=Shrine">Shrine</a></li>
     </ul>
     <div id="main" role="main">
         <?php switch ($_GET['project']) {
@@ -160,7 +160,7 @@
                 </ul>
                 <?php
             break;
-        default:
+        case 'BerkshireHills':
             ?>
                 <div id="projectText">
                     <h3>Berkshire Hills</h3>
@@ -183,6 +183,36 @@
                             src="img/projects/berkshireHills/img04_tn.jpg" alt=""></a></li>
                 </ul>
                 <?php
+        break;
+            default:
+    ?>
+        <div id="projectText">
+            <h3>Azure Green</h3>
+            <h4>
+                Middlefield, MA
+            </h4>
+
+            <p>
+                Arguably one of the most unique looking business headquarters in Western Massachusetts, the
+                futuristic building is at once state of the art and art of the possible.
+                At the planning stage, the owners depended on Restorations Inc.’s CEO, Eric Taylor and a bevy of
+                subcontractor to bring to fruition their vision for a ‘carbon-neutral’ environmentally friendly
+                warehouse for their mail order operation. What followed was a blend of solar, geodesic, and
+                functional efficiency that ensured the surrounding community that they had made a good choice in
+                welcoming the corporation to town.
+            </p>
+        </div>
+        <div id="imageDisplay">
+        </div>
+        <ul class="imgTn">
+            <li><a href="img/projects/azure/img01.jpg" rel="azure"><img src="img/projects/azure/img01_tn.jpg" alt=""></a></li>
+            <li><a href="img/projects/azure/img02.jpg" rel="azure"><img src="img/projects/azure/img02_tn.jpg" alt=""></a></li>
+            <li><a href="img/projects/azure/img03.jpg" rel="azure"><img src="img/projects/azure/img03_tn.jpg" alt=""></a></li>
+            <li><a href="img/projects/azure/img04.jpg" rel="azure"><img src="img/projects/azure/img04_tn.jpg" alt=""></a></li>
+            <li><a href="img/projects/azure/img05.jpg" rel="azure"><img src="img/projects/azure/img05_tn.jpg" alt=""></a></li>
+
+        </ul>
+        <?php
     }
         ?>
     </div>
