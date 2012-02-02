@@ -58,7 +58,7 @@
           </div>
           <div id="footerBottom">
               <a target="_blank" style="float: left" href="includes/restorations_final.pdf">General Contracting Brochure</a>
-              <a href="http://onsitetechservices.com" target="_blank">onsitetechservices.com</a>
+              hosted and developed by <a href="http://onsitetechservices.com" target="_blank">onsitetechservices.com</a>
               <a target="_blank" style="float: right" href="includes/RestorationsSFAD.pdf">Smoke, Fire, and Water Division Brochure</a>
           </div>
       </footer>
