@@ -147,7 +147,7 @@
         case 'Misc':
             ?>
                 <div id="projectText">
-                    <h3>Essentials Day Spa and Papa John's</h3>
+                    <h3>Essentials Day Spa and New home of Papa John's</h3>
                     <h4>
                         Lenox, MA
                     </h4>
