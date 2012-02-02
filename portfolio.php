@@ -165,20 +165,10 @@
                 <div id="projectText">
                     <h3>Berkshire Hills</h3>
                     <h4>
-                        Eden Hill
                         <br>
-                        Stockbridge, MA
                     </h4>
 
-                    <p>Begun in October 2008, Restorations Inc. was able to complete the entire Shrine project in time
-                        to
-                        welcome the more than fifteen thousand visitors slated to arrive at their annual gathering the
-                        following month of May.
-                        The five thousand square foot building features both a Mother Mercy shrine on the upper level
-                        as well as one dedicated to The Holy Innocence in the basement of the structure.
-                        The Marian Fathers were well pleased that the deadline was met and gave credit to Taylor's
-                        firm in a front page article in The Berkshire Eagle, the local newspaper.
-                    </p>
+                    <p></p>
                 </div>
                 <div id="imageDisplay">
                 </div>
