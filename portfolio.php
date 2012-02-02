@@ -146,16 +146,26 @@
             break;
         case 'Misc':
             ?>
+                <div id="projectText">
+                    <h3>Essentials Day Spa and Papa John's</h3>
+                    <h4>
+                        Lenox, MA
+                    </h4>
+                    <p>
+                        Restorations Inc. refurbished the exterior of the existing building while at the same time developing a section of the building for lease.
+                        Taylor successfully negotiated with the Lenox Zoning Board in gaining permission for the attractive "Time and Temperature" sign that gives the site a commanding presence on the Pittsfield-Lenox Road, Routes 7 and 20.
+                    </p>
+                </div>
                 <div id="imageDisplay">
                 </div>
                 <ul class="imgTn">
+                    <li><a href="img/projects/house/img04.jpg" rel="misc"><img src="img/projects/house/img04_tn.jpg"
+                                                                               alt=""></a></li>
                     <li><a href="img/projects/house/img01.jpg" rel="misc"><img src="img/projects/house/img01_tn.jpg"
                                                                                alt=""></a></li>
                     <li><a href="img/projects/house/img02.jpg" rel="misc"><img src="img/projects/house/img02_tn.jpg"
                                                                                alt=""></a></li>
                     <li><a href="img/projects/house/img03.jpg" rel="misc"><img src="img/projects/house/img03_tn.jpg"
-                                                                               alt=""></a></li>
-                    <li><a href="img/projects/house/img04.jpg" rel="misc"><img src="img/projects/house/img04_tn.jpg"
                                                                                alt=""></a></li>
                 </ul>
                 <?php
